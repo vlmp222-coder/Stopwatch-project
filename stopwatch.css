@@ -1,0 +1,46 @@
+body{
+  margin:0;
+  display: flex;
+  justify-content: center;  /* to bring contents center */
+  align-items: center;
+  background: #a396f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  text-align: center; /* 00.00.00 came to center */
+  background:#857cf0;
+  padding: 20px; /* 20px gaps from sides of text items */
+  border-radius: 15px; /* side curves of box */
+  box-shadow:0 0 10px rgba(0,0,0,0.3); /* 10 px color: gave a shadow effect to box, 0.3 in rgba made the shadow lighter(#000000 to gray shade) */
+}
+
+#display{
+  font-size: 50px; /* 00.00.00 changed to 50px (small to big) */
+  margin: 20px; /* 20px gab b/w 00.00.00 and border */
+  font-weight: bold; /* made 00.00.00 bold */
+}
+
+button{
+  padding: 10px 20px; /* 10px gave gap to up and down , 20px gave gap to sides of buttons(start ,etc) so the text became center */
+  margin: 5px; /* gave gap b/w margin and border of buttons) */
+  border: solid;
+  border-radius: 10px; /* gave a slight curver to buttons border */
+  cursor: pointer; /* blink while click */
+  font-size: 16px;
+}
+
+#start{
+  background: green;
+  color: white;
+}
+
+#pause{
+  background: red;
+  color: white;
+}
+
+#reset{
+  background:grey;
+  color: white;
+}
